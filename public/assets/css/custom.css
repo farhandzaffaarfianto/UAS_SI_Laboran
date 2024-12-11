@@ -1,0 +1,51 @@
+/* Styling untuk form modal */
+.modal-body .form-control,
+.modal-body .form-select {
+    padding: 12px 15px;
+    border-radius: 8px;
+    border: 1px solid #ced4da;
+    font-size: 14px;
+}
+
+.modal-body .form-control:focus,
+.modal-body .form-select:focus {
+    border-color: #80bdff;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+.modal-header.bg-primary .modal-title {
+    color: #ffffff !important; /* Pastikan teks putih */
+    font-weight: bold; /* Opsional: membuat teks lebih tebal */
+}
+
+/* Footer CSS */
+/* Pastikan body menggunakan fleksibilitas untuk konten dinamis */
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+
+/* Bagian utama (konten) akan mengambil ruang fleksibel */
+/* Pastikan body mendukung fleksibilitas layout */
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+
+/* Main content harus fleksibel */
+main {
+    flex: 1;
+}
+
+/* Footer tetap kecil dan berada di bawah */
+.footer {
+    background-color: #f8f9fa; /* Warna latar belakang */
+    border-top: 1px solid #dee2e6; /* Garis pemisah */
+    font-size: 14px; /* Ukuran font kecil */
+    color: #6c757d; /* Warna muted */
+    text-align: center;
+}
